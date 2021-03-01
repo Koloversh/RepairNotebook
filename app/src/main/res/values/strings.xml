@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">RepairNotebook</string>
+
+    <string name="Engine">Двигатель, сцепление</string>
+    <string name="Fuel">Топливная система, система выпуска отработаных газов, отопитель</string>
+    <string name="transmission">Трансмиссия</string>
+    <string name="FrontAxle">Передняя ось, дифференциал, рулевое управление</string>
+    <string name="Wheels">Колёса, тормозная система</string>
+    <string name="Controls">Механизмы управления, педальный узел</string>
+    <string name="TheBody">Кузов</string>
+    <string name="Elecrics">Электрика</string>
+    <string name="RearAxle">Задняя ось</string>
+    <string name="Another">Другое</string>
+    <string name="Service">Расписание: ТехОбслуживание, ТехОсмотр, страховка</string>
+
+    <string name="Works">Уход за авто</string>
+    <string name="CarData">Данные по авто</string>
+    <string name="DateSearch">Поиск работ по дате</string>
+    <string name="DataSearch">Поиск работ по разделу</string>
+
 </resources>
