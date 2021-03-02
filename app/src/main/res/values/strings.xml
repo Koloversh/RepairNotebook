@@ -18,4 +18,11 @@
     <string name="DateSearch">Поиск работ по дате</string>
     <string name="DataSearch">Поиск работ по разделу</string>
 
+    <string name="DateOfWorks">Дата:</string>
+    <string name="Where">Адрес:</string>
+    <string name="WhatHaveDone">Что:</string>
+    <string name="PriceOfWorks">Работы, цена:</string>
+    <string name="PriceOfParts">Детали, цена:</string>
+    <string name="WhatElse">Дополнение:</string>
+    <string name="WorksSaveButton">Сохранить</string>
 </resources>
