@@ -16,7 +16,7 @@
     <string name="Works">Уход за авто</string>
     <string name="CarData">Данные по авто</string>
     <string name="DateSearch">Поиск работ по дате</string>
-    <string name="DataSearch">Поиск работ по разделу</string>
+    <string name="SubjectSearch">Поиск работ по разделу</string>
 
     <string name="DateOfWorks">Дата:</string>
     <string name="Where">Адрес:</string>
