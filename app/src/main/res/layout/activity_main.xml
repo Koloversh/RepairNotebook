@@ -20,7 +20,6 @@
         android:id="@+id/worksButton"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:onClick="ButtonToWorks"
         android:text="@string/Works"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,7 +31,7 @@
         android:id="@+id/dataOfCarButton"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:onClick="ButtonOfDataOfCar"
+
         android:text="@string/CarData"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -45,7 +44,7 @@
         android:id="@+id/searchButton"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:onClick="ButtonOfSearchByDate"
+
         android:text="@string/DateSearch"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -58,7 +57,7 @@
         android:id="@+id/searchButton2"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:onClick="ButtonOfSearchBySubject"
+
         android:text="@string/SubjectSearch"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -49,7 +49,7 @@
                     android:id="@+id/engineButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:onClick="Engine"
+
                     android:text="@string/Engine"
                     android:focusable="true" />
 
@@ -57,21 +57,21 @@
                     android:id="@+id/fuelButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:onClick="Fuel"
+
                     android:text="@string/Fuel" />
 
                 <Button
                     android:id="@+id/transmissionButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:onClick="Transmission"
+
                     android:text="@string/transmission" />
 
                 <Button
                     android:id="@+id/frontbridgeButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:onClick="FrontBridge"
+
                     android:text="@string/FrontAxle" />
 
                 <Button
@@ -84,42 +84,42 @@
                     android:id="@+id/controlsButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:onClick="Controls"
+
                     android:text="@string/Controls" />
 
                 <Button
                     android:id="@+id/shellButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:onClick="Shell"
+
                     android:text="@string/TheBody" />
 
                 <Button
                     android:id="@+id/wiresButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:onClick="Wires"
+
                     android:text="@string/Elecrics" />
 
                 <Button
                     android:id="@+id/backbridgeButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:onClick="BackBridge"
+
                     android:text="@string/RearAxle" />
 
                 <Button
                     android:id="@+id/anotherThingsButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:onClick="AnotherWorks"
+
                     android:text="@string/Another" />
 
                 <Button
                     android:id="@+id/serviceButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:onClick="Services"
+
                     android:text="@string/Service" />
 
             </LinearLayout>
@@ -129,7 +129,7 @@
             android:id="@+id/dateSearchButton"
             android:layout_width="185dp"
             android:layout_height="55dp"
-            android:onClick="SearchByDate"
+
             android:text="@string/DateSearch"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -142,7 +142,7 @@
             android:id="@+id/subjectSearchButton"
             android:layout_width="185dp"
             android:layout_height="55dp"
-            android:onClick="SearchBySubject"
+
             android:text="@string/SubjectSearch"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
