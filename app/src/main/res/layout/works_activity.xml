@@ -1,154 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <TextView
+        android:id="@+id/carNickName"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listOfButtons"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="16dp">
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="kjilkl,@+id/dateSearchButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/carNickName" />
 
-        <TextView
-            android:id="@+id/carNickName"
-            android:layout_width="0dp"
-            android:layout_height="64dp"
-            app:layout_constraintBottom_toTopOf="@+id/scrollView2"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.588" />
+    <Button
+        android:id="@+id/dateSearchButton"
+        android:layout_width="185dp"
+        android:layout_height="55dp"
+        android:text="@string/DateSearch"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
-        <ScrollView
-            android:id="@+id/scrollView2"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="64dp"
-            android:layout_marginBottom="64dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0">
+    <Button
+        android:id="@+id/subjectSearchButton"
+        android:layout_width="185dp"
+        android:layout_height="55dp"
 
-            <LinearLayout
-                android:id="@+id/subjectButtons"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:paddingLeft="16dp"
-                android:paddingRight="16dp">
-
-                <Button
-                    android:id="@+id/engineButton"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-
-                    android:text="@string/Engine"
-                    android:focusable="true" />
-
-                <Button
-                    android:id="@+id/fuelButton"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-
-                    android:text="@string/Fuel" />
-
-                <Button
-                    android:id="@+id/transmissionButton"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-
-                    android:text="@string/transmission" />
-
-                <Button
-                    android:id="@+id/frontbridgeButton"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-
-                    android:text="@string/FrontAxle" />
-
-                <Button
-                    android:id="@+id/wheelsButton"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/Wheels" />
-
-                <Button
-                    android:id="@+id/controlsButton"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-
-                    android:text="@string/Controls" />
-
-                <Button
-                    android:id="@+id/shellButton"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-
-                    android:text="@string/TheBody" />
-
-                <Button
-                    android:id="@+id/wiresButton"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-
-                    android:text="@string/Elecrics" />
-
-                <Button
-                    android:id="@+id/backbridgeButton"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-
-                    android:text="@string/RearAxle" />
-
-                <Button
-                    android:id="@+id/anotherThingsButton"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-
-                    android:text="@string/Another" />
-
-                <Button
-                    android:id="@+id/serviceButton"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-
-                    android:text="@string/Service" />
-
-            </LinearLayout>
-        </ScrollView>
-
-        <Button
-            android:id="@+id/dateSearchButton"
-            android:layout_width="185dp"
-            android:layout_height="55dp"
-
-            android:text="@string/DateSearch"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.062"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/scrollView2"
-            app:layout_constraintVertical_bias="0.0" />
-
-        <Button
-            android:id="@+id/subjectSearchButton"
-            android:layout_width="185dp"
-            android:layout_height="55dp"
-
-            android:text="@string/SubjectSearch"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.928"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/scrollView2"
-            app:layout_constraintVertical_bias="0.0" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        android:text="@string/SubjectSearch"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.928"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

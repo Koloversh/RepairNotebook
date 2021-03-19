@@ -1,28 +1,38 @@
 <resources>
     <string name="app_name">RepairNotebook</string>
 
-    <string name="Engine">Двигатель, сцепление</string>
-    <string name="Fuel">Топливная система, система выпуска отработаных газов, отопитель</string>
-    <string name="transmission">Трансмиссия</string>
-    <string name="FrontAxle">Передняя ось, дифференциал, рулевое управление</string>
-    <string name="Wheels">Колёса, тормозная система</string>
-    <string name="Controls">Механизмы управления, педальный узел</string>
-    <string name="TheBody">Кузов</string>
-    <string name="Elecrics">Электрика</string>
-    <string name="RearAxle">Задняя ось</string>
-    <string name="Another">Другое</string>
-    <string name="Service">Расписание: ТехОбслуживание, ТехОсмотр, страховка</string>
+    <string name="Engine">Engine, clutch</string>
+    <string name="Fuel">Fuel system, exhaust system, heater</string>
+    <string name="transmission">Transmission</string>
+    <string name="FrontAxle">Front axle, differential mechanism, steering mechanism</string>
+    <string name="Wheels">Wheels, braking system</string>
+    <string name="Controls">Controls, pedal assembly</string>
+    <string name="TheBody">Body of a car</string>
+    <string name="Elecrics">Electrics</string>
+    <string name="RearAxle">Rear axle</string>
+    <string name="Another">Another</string>
+    <string name="Service">Schedule: maintenance, technical inspection, insurance</string>
 
-    <string name="Works">Уход за авто</string>
-    <string name="CarData">Данные по авто</string>
-    <string name="DateSearch">Поиск работ по дате</string>
-    <string name="SubjectSearch">Поиск работ по разделу</string>
+    <string name="Works">Works</string>
+    <string name="CarData">Car data</string>
+    <string name="DateSearch">Search by the date</string>
+    <string name="SubjectSearch">Search by the subjects</string>
 
-    <string name="DateOfWorks">Дата:</string>
-    <string name="Where">Адрес:</string>
-    <string name="WhatHaveDone">Что:</string>
-    <string name="PriceOfWorks">Работы, цена:</string>
-    <string name="PriceOfParts">Детали, цена:</string>
-    <string name="WhatElse">Дополнение:</string>
-    <string name="WorksSaveButton">Сохранить</string>
+    <string name="DateOfWorks">Date:</string>
+    <string name="Where">Address:</string>
+    <string name="WhatHaveDone">What have done:</string>
+    <string name="PriceOfWorks">Works, price:</string>
+    <string name="PriceOfParts">Spare parts, price:</string>
+    <string name="WhatElse">Another:</string>
+    <string name="WorksSaveButton">Save data</string>
+    <string name="MileageNow">Mileage, now</string>
+
+    <string name="CarName">Car name</string>
+    <string name="CarLabel">Car label</string>
+    <string name="CarModel">Car model</string>
+    <string name="YearOfManufacturing">Year of manufacture</string>
+    <string name="TransmissionInData">Transmission</string>
+    <string name="EngineInData">Engine</string>
+    <string name="Drive">Type of drive</string>
+    <string name="Mileage">Mileage</string>
 </resources>

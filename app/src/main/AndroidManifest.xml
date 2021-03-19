@@ -23,6 +23,10 @@
 
         <activity android:name=".CarDataActivity"></activity>
 
+        <activity android:name=".recyler.RecyclerActivity">
+
+        </activity>
+
     </application>
 
 </manifest>
